@@ -1,13 +1,13 @@
 import sympy as sy
 import numpy as np
 
-def fun_1( 1100252):
-    ans = hex(1100252)
+def fun_1( your_id):
+    ans = hex(your_id)
     return ans
 
 def my_integral():
     x = sy.Symbol('x')
-    ans = sy.integrate( sy.exp(-(sinx)**4), (x,0, sy.oo))
+    ans = sy.integrate( sy.exp((sy.sin(x**2))), (x,0,5))
     return ans
 
 def my_solution():
