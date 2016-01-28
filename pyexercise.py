@@ -18,7 +18,7 @@ def my_solution():
 
 
 if __name__ == '__main__':
-    your_id = 12345678
+    your_id = 1100252
     print('Hexadecimal representation of %d is %s'%( your_id, fun_1( your_id) ))
     print('Integral = ', my_integral())
     print('Solution = ', my_solution())
